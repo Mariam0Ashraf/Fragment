@@ -19,7 +19,7 @@ class BlankFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_blank, container, false).apply {
 
 setOnClickListener{setBackgroundColor(Color.parseColor(
-    arrayOf("Red", "green").random()
+    arrayOf("Red", "green","yellow").random()
 ))}        }
     }
 
